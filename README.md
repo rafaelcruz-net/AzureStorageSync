@@ -11,6 +11,17 @@ static void Main(string[] args)
 {
    var source = CloudStorageAccount.Parse(<AccountStorage>);
    var dest = CloudStorageAccount.Parse(<AccountStorage>);
+   var backup = new Backup(account:source, backupToAccount:dest, maxThreads:5);
+   backup.BeginBackup();
+}
+```
+### Exclude Containers
+
+```
+static void Main(string[] args)
+{
+   var source = CloudStorageAccount.Parse(<AccountStorage>);
+   var dest = CloudStorageAccount.Parse(<AccountStorage>);
    var excludeContainers = new string[] { "$logs" };
    var backup = new Backup(account:source, backupToAccount:dest, maxThreads:5, excludeContainers:excludeContainers);
    backup.BeginBackup();
