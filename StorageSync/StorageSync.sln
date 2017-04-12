@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageSync", "StorageSync\StorageSync.csproj", "{1AA2398F-3B89-48D3-B624-BB1CE1944CD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageSyncSample", "StorageSyncSample\StorageSyncSample.csproj", "{92A820C6-E643-4CD5-B408-E6613369A2AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AA2398F-3B89-48D3-B624-BB1CE1944CD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA2398F-3B89-48D3-B624-BB1CE1944CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA2398F-3B89-48D3-B624-BB1CE1944CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA2398F-3B89-48D3-B624-BB1CE1944CD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92A820C6-E643-4CD5-B408-E6613369A2AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92A820C6-E643-4CD5-B408-E6613369A2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92A820C6-E643-4CD5-B408-E6613369A2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92A820C6-E643-4CD5-B408-E6613369A2AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
